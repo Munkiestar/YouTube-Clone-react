@@ -1,6 +1,8 @@
-import "./App.css";
+import "./App.scss";
 
 import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
+import RecommendedVideos from "./components/RecommendedVideos/RecommendedVideos";
 
 function App() {
   return (
@@ -8,9 +10,13 @@ function App() {
       {/* Header */}
       <Header />
 
-      {/*  Sidebar  */}
+      <div className="app__page">
+        {/*  Sidebar  */}
+        <Sidebar />
 
-      {/*  Video Section  */}
+        {/*  Video Section  */}
+        <RecommendedVideos />
+      </div>
     </div>
   );
 }

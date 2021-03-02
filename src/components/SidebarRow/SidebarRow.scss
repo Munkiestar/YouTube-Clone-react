@@ -1,0 +1,35 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  background-color: #212121;
+  padding: 0.625em 1.25rem;
+
+  &__title {
+    flex: 1;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-left: 1.25rem;
+    color: #ffffff;
+  }
+
+  &__icon {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    color: #909090;
+  }
+
+  &:hover {
+    background-color: #3b3b3b;
+    cursor: pointer;
+
+    // turn icon red on hover
+
+    //> .sidebarRow__icon {
+    //  color: #ff0000;
+    //}
+  }
+
+  &.selected {
+    background-color: #3b3b3b;
+  }
+}
