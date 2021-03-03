@@ -1,5 +1,6 @@
 .sidebar {
   flex: 0.2; // aka width: 20%;
+  min-width: 210px;
   background-color: #212121;
 
   > hr {
@@ -7,5 +8,15 @@
     border: none;
     background-color: #909090;
     margin: 0.6rem 0;
+  }
+
+  &__title {
+    flex: 1;
+    color: #909090;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 8px 0 8px 20px;
+    font-weight: 700;
   }
 }

@@ -14,6 +14,14 @@ import SlideshowIcon from "@material-ui/icons/Slideshow";
 import WatchLaterSharpIcon from "@material-ui/icons/WatchLaterSharp";
 import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAlt";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
+import LiveTvIcon from "@material-ui/icons/LiveTv";
+import HourglassFullIcon from "@material-ui/icons/HourglassFull";
+import SettingsIcon from "@material-ui/icons/Settings";
+import FlagIcon from "@material-ui/icons/Flag";
+import HelpIcon from "@material-ui/icons/Help";
+import FeedbackIcon from "@material-ui/icons/Feedback";
 
 function Sidebar() {
   return (
@@ -28,7 +36,20 @@ function Sidebar() {
       <SidebarRow Icon={WatchLaterSharpIcon} title="Watch Later" />
       <SidebarRow Icon={ThumbUpAltIcon} title="Liked videos" />
       <SidebarRow Icon={ExpandMoreIcon} title="Subscriptions" />
-      {/*<hr />*/}
+      <hr />
+
+      <h3 className="sidebar__title">More from Youtube</h3>
+      <SidebarRow Icon={YouTubeIcon} title="YouTube Premium" />
+      <SidebarRow Icon={SportsEsportsIcon} title="Gaming" />
+      <SidebarRow Icon={LiveTvIcon} title="Live" />
+      <SidebarRow Icon={HourglassFullIcon} title="Sports" />
+      <hr />
+
+      <SidebarRow Icon={SettingsIcon} title="Settings" />
+      <SidebarRow Icon={FlagIcon} title="Report History" />
+      <SidebarRow Icon={HelpIcon} title="Help" />
+      <SidebarRow Icon={FeedbackIcon} title="Send feedback" />
+      <hr />
     </div>
   );
 }

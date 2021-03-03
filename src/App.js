@@ -14,7 +14,7 @@ function App() {
         {/*  Sidebar  */}
         <Sidebar />
 
-        {/*  Video Section  */}
+        {/*  VideoCard Section  */}
         <RecommendedVideos />
       </div>
     </div>
