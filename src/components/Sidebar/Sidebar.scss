@@ -1,6 +1,6 @@
 .sidebar {
   flex: 0.2; // aka width: 20%;
-  min-width: 210px;
+  min-width: 13.125rem;
   background-color: #212121;
 
   > hr {
@@ -18,5 +18,40 @@
     text-align: left;
     padding: 8px 0 8px 20px;
     font-weight: 700;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    color: #aaa;
+    max-width: 15rem;
+
+    &-top,
+    &-bottom {
+      display: flex;
+      flex-wrap: wrap;
+
+      a {
+        margin-right: 0.5rem;
+        margin-bottom: 0.2rem;
+        color: #aaa;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+
+    &-top {
+      padding: 16px 24px 0;
+    }
+
+    &-bottom {
+      padding: 12px 24px 0;
+    }
+
+    &-copyright {
+      padding: 16px 24px;
+      font-size: 13px;
+    }
   }
 }

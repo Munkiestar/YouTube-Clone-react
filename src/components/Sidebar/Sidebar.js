@@ -4,6 +4,8 @@ import "./Sidebar.scss";
 
 import SidebarRow from "../SidebarRow/SidebarRow";
 
+import { Link, BrowserRouter as Router } from "react-router-dom";
+
 // Material Icons
 import HomeIcon from "@material-ui/icons/Home";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
@@ -50,6 +52,32 @@ function Sidebar() {
       <SidebarRow Icon={HelpIcon} title="Help" />
       <SidebarRow Icon={FeedbackIcon} title="Send feedback" />
       <hr />
+
+      <Router>
+        <div className="sidebar__links">
+          <div className="sidebar__links-top">
+            <Link to="/">About</Link>
+            <Link to="/">Press</Link>
+            <Link to="/">Copyright</Link>
+            <Link to="/">Contact us</Link>
+            <Link to="/">Creators</Link>
+            <Link to="/">Advertise</Link>
+            <Link to="/">Developers</Link>
+          </div>
+
+          <div className="sidebar__links-bottom">
+            <Link to="/">Terms</Link>
+            <Link to="/">Privacy</Link>
+            <Link to="/">Policy & Safety</Link>
+            <Link to="/">How YouTube workss</Link>
+            <Link to="/">Test new features</Link>
+          </div>
+
+          <div className="sidebar__links-copyright">
+            <p>&copy; 2021 Google LLC</p>
+          </div>
+        </div>
+      </Router>
     </div>
   );
 }
