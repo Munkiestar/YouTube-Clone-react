@@ -69,7 +69,7 @@ function Sidebar() {
             <Link to="/">Terms</Link>
             <Link to="/">Privacy</Link>
             <Link to="/">Policy & Safety</Link>
-            <Link to="/">How YouTube workss</Link>
+            <Link to="/">How YouTube works</Link>
             <Link to="/">Test new features</Link>
           </div>
 

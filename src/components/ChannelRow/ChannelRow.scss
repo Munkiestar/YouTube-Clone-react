@@ -1,0 +1,43 @@
+.channelRow {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 1.3rem auto;
+
+  &__logo {
+    height: 5.5rem !important;
+    width: 5.5rem !important;
+    vertical-align: center;
+  }
+
+  &__info {
+    margin-left: 2rem;
+
+    h3 {
+      display: inline-flex;
+      margin-bottom: 0.3rem;
+    }
+
+    p:first-of-type {
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 1.1rem !important;
+    height: 1.1rem !important;
+    margin-left: 0.4rem;
+    color: #aaa;
+  }
+}
