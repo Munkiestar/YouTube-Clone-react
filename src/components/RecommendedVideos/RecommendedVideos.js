@@ -16,7 +16,7 @@ function RecommendedVideos(props) {
           timeStamp="19 hours ago"
           avatar="https://yt3.ggpht.com/ytc/AAUvwnjhNX3BOhiTyK6N2Izk20aSdsSyoCr_0QJBC1_Y7y4=s88-c-k-c0x00ffffff-no-rj"
           channel="UFC - Ultimate Fighting Championship"
-          image="https://i.ytimg.com/an_webp/XROvVSpSvG4/mqdefault_6s.webp?du=3000&sqp=CNqd_oEG&rs=AOn4CLBf-4l5_rf7gbbEfa3DEOhKW1Pdqg"
+          image="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iBroMFIumO3s/v1/1000x-1.jpg"
           isVerified
         />
         <VideoCard
@@ -25,7 +25,7 @@ function RecommendedVideos(props) {
           timeStamp="3 days ago"
           avatar="https://yt3.ggpht.com/ytc/AAUvwnjmoFpT7bpwghoPb1hZhk1StPyNoGotQ1oD3r7PuA=s68-c-k-c0x00ffffff-no-rj"
           channel="Tucker Gott"
-          image="https://i.ytimg.com/an_webp/MjXcRU00qW8/mqdefault_6s.webp?du=3000&sqp=CJ-S_oEG&rs=AOn4CLAsbtQ3xtxuTNzrIx1Ns2CbqPVFLw"
+          image="https://i.ytimg.com/vi/adIF-62MmBM/maxresdefault.jpg"
           isVerified
         />
         <VideoCard
@@ -34,7 +34,7 @@ function RecommendedVideos(props) {
           timeStamp="2 years ago"
           avatar="https://yt3.ggpht.com/ytc/AAUvwniKX-PwuZYx8YL0jWO8wi8yn1bPBl6rYVbZDP-4TA=s48-c-k-c0x00ffffff-no-rj"
           channel="React Conf"
-          image="https://i.ytimg.com/an_webp/UxoX2faIgDQ/mqdefault_6s.webp?du=3000&sqp=CKSm_oEG&rs=AOn4CLCOSIbmFxwgTOTHCAkrhf-xErTgdA"
+          image="https://i.ytimg.com/vi/UxoX2faIgDQ/maxresdefault.jpg"
         />
         <VideoCard
           title="Weird Genius - Sweet Scar (ft. Prince Husein)"

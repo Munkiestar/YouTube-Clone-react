@@ -16,15 +16,16 @@
   z-index: 100;
 
   &__logo {
+    display: flex;
     height: 1.4rem;
     width: 4rem;
     margin-left: 1.2rem;
     cursor: pointer;
+    margin-top: 2px;
   }
 
   &__left {
     display: flex;
-    align-items: center;
   }
 
   &__right {
